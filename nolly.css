@@ -1,3 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding: 24px 70px;
+    background-color: black;
+    color: tomato;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hero {
+    padding: 7rem 70px;
+    align-items: center;
+    background-color: tomato;
+}
+
+.hero .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
 
 .stack {
     border: 1px solid rgb(34, 31, 6);
@@ -6,14 +34,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    
-    
-   
+    flex-wrap: wrap;   
 }
-.image {
-    
-   
+
+.image {   
     border: 1px solid peru;
     width: 10rem;
     height: 20rem;
@@ -41,10 +65,9 @@
     margin: 10px 30px;
 
 }
-div {
+div.stack {
     width: 100%;
     height: 400px;
-    
     background-size: 100% 100%;
     border: 1px solid red;
   }
